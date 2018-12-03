@@ -15,11 +15,11 @@ public class BallControl : MonoBehaviour {
         float rand = Random.Range(0, 2);
         if (rand < 1)
         {
-            rb2d.AddForce(new Vector2(20, -15));
-        }
+            rb2d.AddForce(new Vector2(25, -12));    //speed: 20
+        }                                           //angle: 13
         else
         {
-            rb2d.AddForce(new Vector2(-20, -15));
+            rb2d.AddForce(new Vector2(-25, -12));
         }
     }
 
